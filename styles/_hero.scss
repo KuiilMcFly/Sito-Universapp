@@ -1,0 +1,134 @@
+.hero{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+   
+    height: 100vh;
+
+    &-left {
+        color: white;
+        display: flex;
+        flex-direction: column;
+        vertical-align: baseline;
+
+        h1{
+            font-size: 60px;
+            font-weight: bolder;
+            
+        }
+        .hero-title {
+            padding-bottom: 30px;
+        }
+
+        .hero-paragraph {
+            font-size: 17px;
+            font-weight: bold;
+            padding-bottom: 30px;
+
+            p {
+                padding-bottom: 15px;
+            }
+
+        }
+
+        .hero-links{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            
+
+            .bigball {
+                width: 136px;
+                position: relative;
+                bottom: 203px;
+                left: 30px;
+            }
+
+
+
+        .hero-links-box {
+            align-items: center;
+            background-color: rgba(128, 128, 128, 0.585);
+            border-radius: 15px;
+            padding: 30px;
+            margin: 0 auto;
+            z-index: 5;
+
+
+            .candidati-container {
+                display: flex;
+                
+            }
+        }
+        a {
+            text-decoration: none;
+            color: white; 
+            border-radius: 15px;
+            text-align: center;
+            width: 210px;
+            font-weight: bold;
+            padding: 10px;
+        }
+        #hero-candidatura {
+            background-color:#FF00AF;
+            
+    
+
+            &:hover {
+                animation-name: colorshine;
+                animation-duration: 2s;
+                animation-iteration-count: infinite;
+                animation-timing-function: linear;
+
+                @keyframes colorshine {
+                    25% {
+                        background-color: #FF00AF;
+                    }
+                    50% {
+                        background-color: rgb(172, 91, 147);
+                    }
+                    75% {
+                        background-color: rgb(131, 14, 94);
+                    }
+                }
+                
+            }
+            
+        }
+        #hero-consulenza {
+            background-color: #3371FF;
+            margin-left: 150px;
+
+            &:hover {
+                animation-name: colorshine;
+                animation-duration: 2s;
+                animation-iteration-count: infinite;
+                animation-timing-function: linear;
+
+                @keyframes colorshine {
+                    25% {
+                        background-color: #3371FF;
+                    }
+                    50% {
+                        background-color: #6377a5;
+                    }
+                    75% {
+                        background-color: #13388c;
+                    }
+                }
+                
+            }
+
+        }
+    }
+    }
+
+    &-right {
+        
+        #dice2 {
+            display: none;
+            
+        }
+    }
+    
+}

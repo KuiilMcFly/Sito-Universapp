@@ -1,0 +1,26 @@
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 20px;
+
+  &-links {
+    display: flex;
+    gap: 30px;
+    a {
+      padding: 5px 28px;
+      color: white;
+      text-decoration: none;
+      border-radius: 20px;
+      font-size: 20px;
+      width: 200px;
+      text-align: center;
+    }
+    #candidati {
+      background: #ff00b5;
+    }
+    #signup {
+      border: solid 2px #ff00b5;
+    }
+  }
+}

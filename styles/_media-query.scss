@@ -1,0 +1,132 @@
+//BARRA DI NAVIGAZIONE
+@media screen and (max-width: 700px) {
+    #candidati {
+        display: none;
+    }
+}
+
+//HERO SECTION
+
+@media screen and (max-width: 1100px) {
+
+    .hero {
+        &-right {
+            #dice {
+                display: none;
+            }
+
+            #dice2 {
+                display: block;
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 870px) {
+    .hero {
+        display: flex;
+        flex-direction: column;
+        background: url(/img/heroquery.png) no-repeat;
+        background-position: right bottom;
+
+        &-left {
+            h1 {
+                font-size: 44px;
+            }
+
+            .hero-links {
+
+                .bigball{
+                    position: relative;
+                    left: 5px;
+                }
+            }
+        }
+
+        #dice2{
+            display:none;
+        }
+    }
+
+}
+
+//BENEFITS SECTION
+
+@media screen and (max-width: 1600px) {
+.benefits {
+
+    &-box {
+
+        &-central{
+            .biscotto {
+                width: 300px;
+            }
+            
+        }
+    }
+}
+}
+
+@media screen and (max-width: 1370px) {
+    .benefits {
+    
+        &-box {
+    
+            &-central{
+                .biscotto {
+                    width: 250px;
+                }
+                
+            }
+        }
+    }
+    }
+
+    @media screen and (max-width: 1100px) {
+        .benefits {
+        
+            &-box {
+        
+                &-central{
+                    .biscotto {
+                        width: 200px;
+                    }
+                    
+                }
+            }
+        }
+        }
+
+
+@media screen and (max-width: 1100px) {
+        .benefits {
+            &-box {
+                display: flex;
+                flex-direction: column;
+                text-align: start; 
+                align-items: baseline;
+                
+                
+                
+
+                h3 {
+                    width: 300px;
+                }
+
+                p{
+                 
+                
+                }
+
+    
+                
+                &-central {
+                    .biscotto {
+                        display: none;
+                    }
+                }
+            }
+        }
+
+}
