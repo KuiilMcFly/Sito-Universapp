@@ -256,6 +256,30 @@ body {
   margin: 0 auto;
 }
 
+.program .topics-box {
+  display: flex;
+  margin: 0 auto;
+  width: 80%;
+}
+.program .topics-box .topic {
+  display: flex;
+  color: white;
+  background-color: rgba(128, 128, 128, 0.411);
+  -webkit-backdrop-filter: blur(12px);
+          backdrop-filter: blur(12px);
+  border-radius: 15px;
+  padding: 20px;
+}
+.program .topics-box .topic-left .tutor {
+  display: flex;
+  align-items: center;
+}
+.program .topics-box .topic-right {
+  background-color: rgb(157, 38, 193);
+  border-radius: 15px;
+  padding: 20px;
+}
+
 @media screen and (max-width: 700px) {
   #candidati {
     display: none;
