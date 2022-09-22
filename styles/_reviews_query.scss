@@ -1,0 +1,36 @@
+//REVIEWS SECTION
+@media screen and (max-width: 1300px) {
+    .reviews {
+
+        grid-template-columns: 2fr 2fr 2fr;
+
+        #rev4 {
+            display: none;
+            
+        }
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .reviews {
+
+        grid-template-columns: 2fr 2fr;
+
+        #rev3 {
+            display: none;
+            
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .reviews {
+
+        grid-template-columns: 2fr;
+
+        #rev2 {
+            display: none;
+            
+        }
+    }
+}

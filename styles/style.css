@@ -285,4 +285,28 @@ body {
   .benefits-box-central .biscotto {
     display: none;
   }
+}
+@media screen and (max-width: 1300px) {
+  .reviews {
+    grid-template-columns: 2fr 2fr 2fr;
+  }
+  .reviews #rev4 {
+    display: none;
+  }
+}
+@media screen and (max-width: 900px) {
+  .reviews {
+    grid-template-columns: 2fr 2fr;
+  }
+  .reviews #rev3 {
+    display: none;
+  }
+}
+@media screen and (max-width: 600px) {
+  .reviews {
+    grid-template-columns: 2fr;
+  }
+  .reviews #rev2 {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */
