@@ -1,5 +1,14 @@
 //REVIEWS SECTION
 @media screen and (max-width: 1300px) {
+
+    .purple-ball-rec {
+        grid-template-columns:2fr 2fr 2fr;
+        #purpleb4 {
+            display: none;
+        }
+    }
+    
+    
     .reviews {
 
         grid-template-columns: 2fr 2fr 2fr;
@@ -12,6 +21,18 @@
 }
 
 @media screen and (max-width: 900px) {
+
+    .reviews-title {
+        font-size: 24px;
+    }
+
+   .purple-ball-rec {
+    grid-template-columns:3fr 3fr;
+        #purpleb3 {
+            display: none;
+        }
+   } 
+    
     .reviews {
 
         grid-template-columns: 2fr 2fr;
@@ -24,6 +45,17 @@
 }
 
 @media screen and (max-width: 600px) {
+
+    .reviews-title {
+        font-size: 24px;
+    }
+    
+   .purple-ball-rec {
+    grid-template-columns:1fr;
+        #purpleb2 {
+            display: none;
+        }
+   } 
     .reviews {
 
         grid-template-columns: 2fr;

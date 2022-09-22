@@ -7,10 +7,9 @@
 }
 
 .purple-ball-rec {
-    display: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 
-    
-    
 }
 
 
@@ -18,14 +17,26 @@
 
     text-align: center;
     display: grid;
-    grid-template-columns: 2fr 2fr 2fr 2fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    position: relative;
+    bottom: 170px;
+    
     color: white;
     
     
     &-box {
-        background: gray;
+        background: rgba(128, 128, 128, 0.52);
+        backdrop-filter: blur(12px);
         border-radius: 15px;
         margin: 0 40px;
+        padding: 20px;
+        text-align: left;
+
+        .user {
+            width: 50px;
+        }
+
+
     }
     
     

@@ -2,6 +2,8 @@
 
 @media screen and (max-width: 1600px) {
     .benefits {
+
+        
     
         &-box {
     
@@ -32,6 +34,10 @@
     
         @media screen and (max-width: 900px) {
             .benefits {
+
+                #backimg {
+                    display: none;
+                }
                 background: url(/img/biscotto.png)no-repeat;
                 background-size: contain;
                 background-position: bottom;

@@ -14,10 +14,22 @@
         font-size: 40px;
     }
 
+    #backimg {
+        position: absolute;
+        left: 35%;
+        
+        
+        
+        
+        width: 500px;
+    }
+
     &-box {
+        
         align-items: center;
         display: flex;
-        background: rgba($color: #6e6d6d, $alpha: 1.0);
+        background-color: rgba(128, 128, 128, 0.318);
+        backdrop-filter: blur(12px);
         padding: 30px;
         width: 80%;
         margin: 0 auto;
