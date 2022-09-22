@@ -1,0 +1,76 @@
+//BENEFITS SECTION
+
+@media screen and (max-width: 1600px) {
+    .benefits {
+    
+        &-box {
+    
+            &-central{
+                .biscotto {
+                    width: 300px;
+                }
+                
+            }
+        }
+    }
+    }
+    
+    @media screen and (max-width: 1370px) {
+        .benefits {
+        
+            &-box {
+        
+                &-central{
+                    .biscotto {
+                        width: 250px;
+                    }
+                    
+                }
+            }
+        }
+        }
+    
+        @media screen and (max-width: 900px) {
+            .benefits {
+                background: url(/img/biscotto.png)no-repeat;
+                background-size: contain;
+                background-position: bottom;
+    
+                &-title {
+                    font-size: 24px;
+                }
+                
+                
+                .biscottofuori {
+                    width: 200px;
+                    display: block;
+                    position: relative;
+                    bottom: 60px;
+                }
+            
+                &-box {
+                    display: flex;
+                    flex-direction: column;
+                    text-align: start; 
+                    align-items: baseline;
+                    
+                    
+                    h3 {
+                        width: 300px;
+                    }
+    
+                    &-left, &-right {
+                        width: 100%;
+                    }
+                    
+            
+                    &-central{
+                        .biscotto {
+                            display: none;
+                        }
+                        
+                    }
+                }
+            }
+            }
+    

@@ -198,13 +198,15 @@ body {
   padding-top: 80px;
 }
 
+.purple-ball-rec {
+  display: none;
+}
+
 .reviews {
   text-align: center;
   display: grid;
   grid-template-columns: 2fr 2fr 2fr 2fr;
   color: white;
-  margin: 0 auto;
-  width: 90%;
 }
 .reviews-box {
   background: gray;
