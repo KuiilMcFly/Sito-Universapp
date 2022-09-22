@@ -1,0 +1,29 @@
+.road {
+    display: flex;
+    
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+
+    &-left {
+        color: white;
+        width: 30%;
+        
+
+        h1 {
+            font-size: 40px;
+        }
+        p {
+            font-size: 17px;
+        }
+        span {
+            color: #FF0076;
+        }
+    }
+
+    &-right {
+        margin: 0 auto;
+    }
+
+
+}

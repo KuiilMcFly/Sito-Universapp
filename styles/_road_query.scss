@@ -1,0 +1,11 @@
+@media screen and (max-width: 1000px) {
+    .road {
+        &-right {
+            display: none;
+        }
+
+        &-left {
+            width: 70%;
+        }
+    }
+}

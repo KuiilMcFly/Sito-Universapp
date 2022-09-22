@@ -233,6 +233,29 @@ body {
   width: 50px;
 }
 
+.road {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+}
+.road-left {
+  color: white;
+  width: 30%;
+}
+.road-left h1 {
+  font-size: 40px;
+}
+.road-left p {
+  font-size: 17px;
+}
+.road-left span {
+  color: #FF0076;
+}
+.road-right {
+  margin: 0 auto;
+}
+
 @media screen and (max-width: 700px) {
   #candidati {
     display: none;
@@ -354,5 +377,13 @@ body {
   }
   .reviews #rev2 {
     display: none;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .road-right {
+    display: none;
+  }
+  .road-left {
+    width: 70%;
   }
 }/*# sourceMappingURL=style.css.map */
