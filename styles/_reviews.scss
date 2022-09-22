@@ -1,0 +1,29 @@
+
+.reviews-title {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.reviews {
+
+    text-align: center;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    color: white;
+    margin: 0 auto;
+    width: 90%;
+    
+    
+    &-box {
+        background: gray;
+        border-radius: 15px;
+        margin: 0 40px;
+        
+    
+    }
+    
+    
+}
+

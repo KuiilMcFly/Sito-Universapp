@@ -164,6 +164,9 @@ body {
   flex-direction: column;
   text-align: center;
 }
+.benefits .biscottofuori {
+  display: none;
+}
 .benefits-title {
   font-size: 40px;
 }
@@ -171,8 +174,6 @@ body {
   align-items: center;
   display: flex;
   background: #6e6d6d;
-  -webkit-backdrop-filter: blur(10px);
-          backdrop-filter: blur(10px);
   padding: 30px;
   width: 80%;
   margin: 0 auto;
@@ -186,15 +187,29 @@ body {
   font-size: 17px;
   padding-bottom: 30px;
 }
-.benefits-box-left {
+.benefits-box-left, .benefits-box-right, .benefits-box-central {
   width: 33.3%;
 }
-.benefits-box-central {
-  width: 33.3%;
-  margin: 0 20px;
+
+.reviews-title {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 80px;
 }
-.benefits-box-right {
-  width: 33.3%;
+
+.reviews {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 2fr;
+  color: white;
+  margin: 0 auto;
+  width: 90%;
+}
+.reviews-box {
+  background: gray;
+  border-radius: 15px;
+  margin: 0 40px;
 }
 
 @media screen and (max-width: 700px) {
@@ -238,12 +253,21 @@ body {
     width: 250px;
   }
 }
-@media screen and (max-width: 1100px) {
-  .benefits-box-central .biscotto {
-    width: 200px;
+@media screen and (max-width: 900px) {
+  .benefits {
+    background: url(/img/biscotto.png) no-repeat;
+    background-size: contain;
+    background-position: bottom;
   }
-}
-@media screen and (max-width: 1100px) {
+  .benefits-title {
+    font-size: 24px;
+  }
+  .benefits .biscottofuori {
+    width: 200px;
+    display: block;
+    position: relative;
+    bottom: 60px;
+  }
   .benefits-box {
     display: flex;
     flex-direction: column;
@@ -252,6 +276,9 @@ body {
   }
   .benefits-box h3 {
     width: 300px;
+  }
+  .benefits-box-left, .benefits-box-right {
+    width: 100%;
   }
   .benefits-box-central .biscotto {
     display: none;

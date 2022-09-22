@@ -83,14 +83,43 @@
     }
     }
 
-    @media screen and (max-width: 1100px) {
+    @media screen and (max-width: 900px) {
         .benefits {
+            background: url(/img/biscotto.png)no-repeat;
+            background-size: contain;
+            background-position: bottom;
+
+            &-title {
+                font-size: 24px;
+            }
+            
+            
+            .biscottofuori {
+                width: 200px;
+                display: block;
+                position: relative;
+                bottom: 60px;
+            }
         
             &-box {
+                display: flex;
+                flex-direction: column;
+                text-align: start; 
+                align-items: baseline;
+                
+                
+                h3 {
+                    width: 300px;
+                }
+
+                &-left, &-right {
+                    width: 100%;
+                }
+                
         
                 &-central{
                     .biscotto {
-                        width: 200px;
+                        display: none;
                     }
                     
                 }
@@ -99,34 +128,3 @@
         }
 
 
-@media screen and (max-width: 1100px) {
-        .benefits {
-            &-box {
-                display: flex;
-                flex-direction: column;
-                text-align: start; 
-                align-items: baseline;
-                
-                
-                
-
-                h3 {
-                    width: 300px;
-                }
-
-                p{
-                 
-                
-                }
-
-    
-                
-                &-central {
-                    .biscotto {
-                        display: none;
-                    }
-                }
-            }
-        }
-
-}
