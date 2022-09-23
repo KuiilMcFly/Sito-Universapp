@@ -256,10 +256,20 @@ body {
   margin: 0 auto;
 }
 
+.program {
+  position: relative;
+  bottom: 150px;
+}
+.program-background {
+  position: absolute;
+}
 .program .topics-box {
+  position: relative;
+  top: 200px;
   display: flex;
   margin: 0 auto;
-  width: 80%;
+  width: 90%;
+  gap: 30px;
 }
 .program .topics-box .topic {
   display: flex;
@@ -270,14 +280,74 @@ body {
   border-radius: 15px;
   padding: 20px;
 }
+.program .topics-box .topic-left {
+  width: 60%;
+  padding-right: 50px;
+}
 .program .topics-box .topic-left .tutor {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin-top: 50px;
+  gap: 10px;
   display: flex;
   align-items: center;
 }
+.program .topics-box .topic-left .tutor p {
+  font-size: 18px;
+}
+.program .topics-box .topic #box-andrea {
+  background-color: rgba(157, 38, 193, 0.494);
+}
+.program .topics-box .topic #box-andrea #andrea-ball {
+  background-color: rgba(202, 3, 146, 0.696);
+}
+.program .topics-box .topic #box-samuel {
+  background-color: rgba(193, 27, 146, 0.686);
+}
+.program .topics-box .topic #box-samuel #samuel-ball {
+  background-color: rgb(162, 3, 202);
+}
+.program .topics-box .topic #box-davide {
+  background-color: rgba(23, 118, 190, 0.516);
+}
+.program .topics-box .topic #box-davide #davide-ball {
+  background-color: rgb(3, 166, 202);
+}
 .program .topics-box .topic-right {
-  background-color: rgb(157, 38, 193);
+  -webkit-backdrop-filter: blur(12px);
+          backdrop-filter: blur(12px);
   border-radius: 15px;
   padding: 20px;
+  width: 40%;
+}
+.program .topics-box .topic-right .tutor-title {
+  display: none;
+}
+.program .topics-box .topic-right .duration p {
+  background: rgba(0, 0, 0, 0.502);
+  -webkit-backdrop-filter: blur(12px);
+          backdrop-filter: blur(12px);
+  border-radius: 15px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 3px;
+}
+.program .topics-box .topic-right .randomball {
+  -webkit-backdrop-filter: blur(12px);
+          backdrop-filter: blur(12px);
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+  border-radius: 100%;
+}
+.program .topics-box .topic-right .randomball p {
+  margin-top: 50px;
+  opacity: 0%;
+  padding: 50px;
 }
 
 @media screen and (max-width: 700px) {
@@ -409,5 +479,63 @@ body {
   }
   .road-left {
     width: 70%;
+  }
+}
+@media screen and (max-width: 1600px) {
+  .program {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .program-background #background1 {
+    display: none;
+  }
+  .program .topics-box #davide {
+    display: none;
+  }
+}
+@media screen and (max-width: 1080px) {
+  .program .topics-box {
+    width: 60%;
+  }
+  .program .topics-box #samuel {
+    display: none;
+  }
+}
+@media screen and (max-width: 900px) {
+  .program .topics-box {
+    display: flex;
+    justify-content: center;
+  }
+  .program .topics-box #samuel {
+    display: block;
+  }
+  .program .topics-box #davide {
+    display: block;
+  }
+  .program .topics-box .topic-left {
+    display: none;
+  }
+  .program .topics-box .topic-right {
+    width: 100%;
+  }
+  .program .topics-box .topic-right .tutor-title {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  .program .topics-box .topic-right .randomball p {
+    margin-top: 0px;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .program .topics-box #davide {
+    display: none;
+  }
+}
+@media screen and (max-width: 500px) {
+  .program .topics-box #samuel {
+    display: none;
   }
 }/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,100 @@
+
+@media screen and (max-width: 1600px) {
+    .program {
+        display: flex;
+        justify-content: flex-end;
+        &-background {
+            #background1 {
+                display: none;
+            }
+            
+        }
+
+        .topics-box {
+            #davide {
+                display: none;
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 1080px) {
+.program {
+    .topics-box {
+        #samuel {
+            display: none;
+        }
+        width: 60%;
+        
+        
+    }
+}
+}
+
+
+@media screen and (max-width: 900px) {
+    .program {
+        .topics-box {
+            display: flex;
+            justify-content: center;
+            #samuel {
+                display: block;
+            }
+            #davide {
+                display: block;
+                
+            }
+            
+            .topic {
+                &-left {
+                    display: none;
+                }
+
+                &-right {
+                    width: 100%;
+                    
+                    .tutor-title {
+                        display: block;
+                        font-size: 18px;
+                        font-weight: bold;
+                        margin-top: 10px;
+                    }
+
+                    .randomball {
+                        p {
+                            margin-top: 0px;
+                            margin-bottom: 30px;
+                        }
+                    }
+                }
+
+
+            }
+        }
+    }
+    }
+
+
+    @media screen and (max-width: 700px) {
+        .program {
+            .topics-box {
+                #davide {
+                    display: none;
+                }
+            }
+        }
+
+    }
+
+
+    @media screen and (max-width: 500px) {
+        .program {
+            .topics-box {
+                #samuel {
+                    display: none;
+                }
+            }
+        }
+
+    }

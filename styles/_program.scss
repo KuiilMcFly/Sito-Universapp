@@ -1,9 +1,18 @@
 .program {
+    position: relative;
+    bottom: 150px;
+    &-background {
+        position: absolute;
+        
+    }
 
     .topics-box {
+        position: relative;
+        top: 200px;
         display: flex;
         margin: 0 auto;
-        width: 80%;
+        width: 90%;
+        gap: 30px;
         
         .topic {
             display: flex;
@@ -14,17 +23,78 @@
             padding: 20px;
 
             &-left {
+                width: 60%;
+                padding-right: 50px;
 
+                
                 .tutor {
+                    width: max-content;
+                    margin-top: 50px;
+                    gap: 10px;
                     display: flex;
                     align-items: center;
+                    
+                    p {
+                        font-size:18px;
+                        
+                        
+                    }
                 }
             }  
             
+            #box-andrea{
+                background-color: rgba(157, 38, 193, 0.494);
+                #andrea-ball {
+                    background-color:rgba(202, 3, 146, 0.696);
+                }
+                }
+            
+            #box-samuel {
+                background-color: rgba(193, 27, 146, 0.686);
+                #samuel-ball {
+                    background-color: rgb(162, 3, 202);
+                }
+            }
+
+            #box-davide {
+                background-color: rgba(23, 118, 190, 0.516);
+                #davide-ball {
+                    background-color: rgb(3, 166, 202);
+                }
+            }
             &-right {
-                background-color: rgb(157,38 ,193);
+    
+                backdrop-filter: blur(12px);
                 border-radius: 15px;
                 padding: 20px;
+                width: 40%;
+
+                .tutor-title {
+                    display: none;
+                }
+                .duration {
+                    p {
+                        background: rgba(0, 0, 0, 0.502);
+                        backdrop-filter: blur(12px);
+                        border-radius: 15px;
+                        width: fit-content;
+                        margin: 0 auto;
+                        padding: 3px;
+                    }
+                }
+                .randomball {
+                    backdrop-filter: blur(12px);
+                    width: fit-content;
+                    margin: 0 auto;
+                    border-radius: 100%;
+                        
+
+                    p {
+                        margin-top: 50px;
+                        opacity: 0%;
+                        padding: 50px;
+                    }
+                }
                 
             }
         }
