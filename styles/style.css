@@ -350,6 +350,87 @@ body {
   padding: 50px;
 }
 
+.payments {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 18em;
+  flex-direction: column;
+}
+.payments h3 {
+  padding-bottom: 50px;
+}
+.payments .payments-container {
+  display: flex;
+  gap: 50px;
+}
+.payments .payments-container .pay {
+  padding: 20px;
+  background: orange;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.payments .payments-container .pay .pay-title {
+  text-align: center;
+}
+.payments .payments-container .pay-price-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+  background-color: rgba(128, 128, 128, 0.504);
+  -webkit-backdrop-filter: blur(12px);
+          backdrop-filter: blur(12px);
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding: 50px;
+}
+.payments .payments-container .pay-price-box #total-price {
+  font-size: 48px;
+  text-decoration: line-through;
+  margin-bottom: 20px;
+}
+.payments .payments-container .pay-price-box #new-price {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.payments .payments-container .pay-price-box #how-price {
+  font-size: 15px;
+}
+.payments .payments-container .pay-price-box #iva {
+  font-size: 10px;
+  margin-bottom: 20px;
+}
+.payments .payments-container .pay-price-box #pay-info {
+  font-size: 16px;
+}
+.payments .payments-container .pay-price-box #pay-info2 {
+  font-size: 16px;
+  margin-bottom: 90px;
+}
+.payments .payments-container .pay-price-box .register-link {
+  position: absolute;
+  top: 23em;
+  padding: 20px 40px;
+  background-color: rgba(67, 67, 67, 0.697);
+  -webkit-backdrop-filter: blur(12px);
+          backdrop-filter: blur(12px);
+  text-align: center;
+  border-radius: 15px;
+}
+.payments .payments-container .pay-price-box .register-link p {
+  margin-top: 20px;
+  font-size: 12px;
+}
+.payments .payments-container .pay-price-box .register-link a {
+  padding: 10px 30px;
+  background-color: pink;
+  border-radius: 15px;
+  text-decoration: none;
+  color: white;
+}
+
 @media screen and (max-width: 700px) {
   #candidati {
     display: none;
