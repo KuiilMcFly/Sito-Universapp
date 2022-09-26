@@ -1,0 +1,65 @@
+@media screen and (max-width: 1100px) {
+.payments {
+    .payments-container {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .convinced {
+        margin: 200 auto;
+        
+        .try-text {
+            img {
+                display: none;
+            }
+            
+        }
+        .try-img-box {
+            display: block;
+            padding: 30px 0;
+        }
+
+        .try-now-box {
+            position: absolute;
+            top: 258px;
+        }
+    }
+}
+}
+
+
+@media screen and (max-width: 915px) {
+    .convinced {
+       width: 70%;
+
+       .try-now-box {
+        display: none;
+        }
+    }
+
+    .media-try-box {
+
+        display: block;
+        position: relative;
+        bottom: 65px;
+        background-color: rgba(128, 128, 128, 0.509);
+        backdrop-filter: blur(12px);
+        padding: 30px 50px;
+        border-radius: 15px;
+
+
+            a {
+                
+                text-decoration: none;
+                color: white;
+                background-color: rgba(0, 0, 0, 0.67);
+                backdrop-filter: blur(12px);
+                padding: 10px 40px;
+                border-radius: 15px;
+                border: solid 2px white;
+            }
+    }
+
+}
+

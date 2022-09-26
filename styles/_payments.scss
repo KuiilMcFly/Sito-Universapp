@@ -13,18 +13,24 @@
     
     .payments-container {
         display: flex;
-        gap: 50px;
+        gap: 200px;
+        
         
 
         .pay {
             padding: 20px;
-            background: orange;
+            background: -webkit-linear-gradient(#1fdcaa,#e3770c);
             border-top-left-radius: 15px;
             border-top-right-radius: 15px;
+            width: 400px;
 
             .pay-title {
                 text-align: center;
             }   
+        }
+
+        #rate {
+            background: -webkit-linear-gradient(#d91297,#940cf5);
         }
 
         .pay-price-box {
@@ -82,9 +88,66 @@
                     text-decoration: none;
                     color: white;
                 }
+
+                #pre {
+                    background: -webkit-linear-gradient(#1fdcaa,#e3770c);
+                    color: black;
+                }
+
+                #now {
+                   background-color: #FF0076; 
+                }
             }
         }
   
+    }
+
+    .convinced {
+        margin-top: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgba(128, 128, 128, 0.458);
+        backdrop-filter: blur(12px);
+        border-radius: 15px;
+        padding: 64px;
+        
+
+        .try-text {
+            display: flex;
+            text-align: center;
+
+            &-content {
+                padding: 0 100px;
+            }
+        }
+
+        .try-img-box {
+            display: none;
+        }
+
+        .try-now-box {
+            position: absolute;
+            top: 138px;
+            background-color: rgba(128, 128, 128, 0.509);
+            backdrop-filter: blur(12px);
+            padding: 30px 50px;
+            border-radius: 15px;
+
+
+            a {
+                text-decoration: none;
+                color: white;
+                background-color: rgba(0, 0, 0, 0.67);
+                backdrop-filter: blur(12px);
+                padding: 10px 40px;
+                border-radius: 15px;
+                border: solid 2px white;
+            }
+        }
+    }
+    .media-try-box {
+        display: none;
     }
 }
 

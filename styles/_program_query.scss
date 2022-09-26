@@ -1,3 +1,16 @@
+@media screen and (max-width: 1670px) {
+    .program {
+        display: flex;
+        justify-content: flex-end;
+        &-background {
+            #background2 {
+                display: none;
+            }
+        }
+}
+}
+    
+
 
 @media screen and (max-width: 1600px) {
     .program {

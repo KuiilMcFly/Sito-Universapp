@@ -13,9 +13,17 @@
 
         h1{
             font-size: 60px;
-            font-weight: bolder;
-            
+            font-weight: bolder;  
         }
+
+        #programmer {
+            color: #2D85D3;
+        }
+
+        #complete {
+            color: #313ACE;
+        }
+
         .hero-title {
             padding-bottom: 30px;
         }
@@ -73,7 +81,7 @@
         #hero-candidatura {
             background-color:#FF00AF;
             
-    
+        
 
             &:hover {
                 animation-name: colorshine;

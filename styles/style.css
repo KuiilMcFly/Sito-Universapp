@@ -51,6 +51,12 @@ body {
   font-size: 60px;
   font-weight: bolder;
 }
+.hero-left #programmer {
+  color: #2D85D3;
+}
+.hero-left #complete {
+  color: #313ACE;
+}
 .hero-left .hero-title {
   padding-bottom: 30px;
 }
@@ -363,16 +369,20 @@ body {
 }
 .payments .payments-container {
   display: flex;
-  gap: 50px;
+  gap: 200px;
 }
 .payments .payments-container .pay {
   padding: 20px;
-  background: orange;
+  background: -webkit-linear-gradient(#1fdcaa, #e3770c);
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
+  width: 400px;
 }
 .payments .payments-container .pay .pay-title {
   text-align: center;
+}
+.payments .payments-container #rate {
+  background: -webkit-linear-gradient(#d91297, #940cf5);
 }
 .payments .payments-container .pay-price-box {
   display: flex;
@@ -429,6 +439,56 @@ body {
   border-radius: 15px;
   text-decoration: none;
   color: white;
+}
+.payments .payments-container .pay-price-box .register-link #pre {
+  background: -webkit-linear-gradient(#1fdcaa, #e3770c);
+  color: black;
+}
+.payments .payments-container .pay-price-box .register-link #now {
+  background-color: #FF0076;
+}
+.payments .convinced {
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(128, 128, 128, 0.458);
+  -webkit-backdrop-filter: blur(12px);
+          backdrop-filter: blur(12px);
+  border-radius: 15px;
+  padding: 64px;
+}
+.payments .convinced .try-text {
+  display: flex;
+  text-align: center;
+}
+.payments .convinced .try-text-content {
+  padding: 0 100px;
+}
+.payments .convinced .try-img-box {
+  display: none;
+}
+.payments .convinced .try-now-box {
+  position: absolute;
+  top: 138px;
+  background-color: rgba(128, 128, 128, 0.509);
+  -webkit-backdrop-filter: blur(12px);
+          backdrop-filter: blur(12px);
+  padding: 30px 50px;
+  border-radius: 15px;
+}
+.payments .convinced .try-now-box a {
+  text-decoration: none;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.67);
+  -webkit-backdrop-filter: blur(12px);
+          backdrop-filter: blur(12px);
+  padding: 10px 40px;
+  border-radius: 15px;
+  border: solid 2px white;
+}
+.payments .media-try-box {
+  display: none;
 }
 
 @media screen and (max-width: 700px) {
@@ -562,6 +622,15 @@ body {
     width: 70%;
   }
 }
+@media screen and (max-width: 1670px) {
+  .program {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .program-background #background2 {
+    display: none;
+  }
+}
 @media screen and (max-width: 1600px) {
   .program {
     display: flex;
@@ -618,5 +687,53 @@ body {
 @media screen and (max-width: 500px) {
   .program .topics-box #samuel {
     display: none;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .payments .payments-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .payments .convinced {
+    margin: 200 auto;
+  }
+  .payments .convinced .try-text img {
+    display: none;
+  }
+  .payments .convinced .try-img-box {
+    display: block;
+    padding: 30px 0;
+  }
+  .payments .convinced .try-now-box {
+    position: absolute;
+    top: 258px;
+  }
+}
+@media screen and (max-width: 915px) {
+  .convinced {
+    width: 70%;
+  }
+  .convinced .try-now-box {
+    display: none;
+  }
+  .media-try-box {
+    display: block;
+    position: relative;
+    bottom: 65px;
+    background-color: rgba(128, 128, 128, 0.509);
+    -webkit-backdrop-filter: blur(12px);
+            backdrop-filter: blur(12px);
+    padding: 30px 50px;
+    border-radius: 15px;
+  }
+  .media-try-box a {
+    text-decoration: none;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.67);
+    -webkit-backdrop-filter: blur(12px);
+            backdrop-filter: blur(12px);
+    padding: 10px 40px;
+    border-radius: 15px;
+    border: solid 2px white;
   }
 }/*# sourceMappingURL=style.css.map */
