@@ -1,0 +1,38 @@
+.techjob {
+    color: white;
+    padding-top: 100px;
+    &-italia {
+        text-align: center;
+        h1 {
+            padding-bottom: 30px;
+        }
+
+        &-info {
+            align-items: center;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            padding: 30px;
+            background-color: rgba(128, 128, 128, 0.55);
+            backdrop-filter: blur(12px);
+            border-radius: 15px;
+            margin: 0 auto;
+            width: 80%;
+
+            .tj-info {
+                text-align: start;
+                h2 {
+                    padding-bottom: 20px;
+                }
+                p {
+                    width: 60%;
+                }
+            }
+        }
+
+        .tj-info:nth-child(3) {
+            grid-row-start:  1;
+            grid-row-end: 3;
+        }
+    }
+    
+}

@@ -491,6 +491,42 @@ body {
   display: none;
 }
 
+.techjob {
+  color: white;
+  padding-top: 100px;
+}
+.techjob-italia {
+  text-align: center;
+}
+.techjob-italia h1 {
+  padding-bottom: 30px;
+}
+.techjob-italia-info {
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 30px;
+  background-color: rgba(128, 128, 128, 0.55);
+  -webkit-backdrop-filter: blur(12px);
+          backdrop-filter: blur(12px);
+  border-radius: 15px;
+  margin: 0 auto;
+  width: 80%;
+}
+.techjob-italia-info .tj-info {
+  text-align: start;
+}
+.techjob-italia-info .tj-info h2 {
+  padding-bottom: 20px;
+}
+.techjob-italia-info .tj-info p {
+  width: 60%;
+}
+.techjob-italia .tj-info:nth-child(3) {
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
 @media screen and (max-width: 700px) {
   #candidati {
     display: none;
