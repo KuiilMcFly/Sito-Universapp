@@ -1,1 +1,8 @@
-/*# sourceMappingURL=techjob_query.css.map */
+@media screen and (max-width: 1900px) {
+  .teachjob-italia-info {
+    flex-direction: column;
+  }
+  .cristallo2 {
+    display: none;
+  }
+}/*# sourceMappingURL=techjob_query.css.map */

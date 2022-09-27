@@ -126,16 +126,21 @@
             display: none;
         }
 
-        .try-now-box {
+        .media-try-box {
             position: absolute;
             top: 138px;
             background-color: rgba(128, 128, 128, 0.509);
             backdrop-filter: blur(12px);
             padding: 30px 50px;
             border-radius: 15px;
-
-
+            
+            
+            
+            
+    
+    
             a {
+                display: flex;
                 text-decoration: none;
                 color: white;
                 background-color: rgba(0, 0, 0, 0.67);
@@ -143,12 +148,22 @@
                 padding: 10px 40px;
                 border-radius: 15px;
                 border: solid 2px white;
+                margin: 0;
+                text-align: center;
+                align-items: center;
+                margin: 0 auto;
+                
+                
+            }
+
+            i {
+                padding-left: 10px;
             }
         }
     }
-    .media-try-box {
-        display: none;
-    }
+
+
+
 }
 
             
