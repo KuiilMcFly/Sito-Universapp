@@ -1,0 +1,73 @@
+.last-chance {
+    margin-bottom: 200px;
+    display: flex;
+    margin-top: 200px;
+    justify-content: center;
+    gap: 100px;
+
+
+    &-left {
+        border-right: solid 2px white;
+        p {
+            padding-bottom: 30px;
+            padding-right: 20px;
+            font-size: 25px;
+            font-weight: bold;
+        }
+    }
+
+
+    &-right {
+        h1 {
+            color: #33FFD9;
+            font-size: 40px;
+            padding-bottom: 20px;
+        }
+        p {
+            padding-bottom: 20px;
+        }
+
+        .right-options {
+            display: flex;
+            gap: 20px;
+
+            .option {
+                p {
+                    width: 70%;
+                }
+                .optionbox {
+                    background: rgba(128, 128, 128, 0.46);
+                    backdrop-filter: blur(12px);
+                    border-radius: 15px;
+                    text-align: center;
+                    padding: 20px 5px;
+                    a {
+                        text-decoration: none;
+                        padding: 10px;
+                        border-radius: 15px;
+                        
+                    }
+
+                    #opzione1 {
+                        
+                        color: black;
+                        background: -webkit-linear-gradient(#1fdcaa,#e3770c);
+                    }
+
+                    #opzione2 {
+                        color: white;
+                        background-color: #FF0076;
+                        
+                    }
+                }  
+            }
+
+            
+        }
+        img {
+            padding-left: 100px;
+            padding-top: 30px;
+        }
+    }
+}
+

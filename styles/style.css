@@ -5,7 +5,7 @@
 }
 
 body {
-  background: black;
+  background: url(/img/backimg.jpg);
   font-family: "Roboto", sans-serif;
 }
 
@@ -14,6 +14,10 @@ body {
   justify-content: space-around;
   align-items: center;
   padding-top: 20px;
+  background-color: rgba(69, 69, 69, 0.503);
+  -webkit-backdrop-filter: blur(12px);
+          backdrop-filter: blur(12px);
+  border-bottom: solid 1px rgba(255, 255, 255, 0.495);
 }
 .navbar-links {
   display: flex;
@@ -497,65 +501,165 @@ body {
 }
 
 .techjob {
-  color: white;
-  padding-top: 100px;
-  background: url(/img/cristallo2.png) no-repeat;
-  background-position: top right;
-}
-.techjob-italia {
-  text-align: center;
-}
-.techjob-italia h1 {
-  padding-bottom: 30px;
-}
-.techjob-italia-info {
-  align-items: center;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  padding-top: 100px;
+  color: white;
+  margin: auto;
+  position: relative;
+  overflow: hidden;
+}
+.techjob #tech-title {
   text-align: center;
+  padding-bottom: 20px;
+}
+.techjob #gemma-blu-grande {
+  z-index: 3;
+  position: absolute;
+  left: -29%;
+  bottom: 45%;
+}
+.techjob #gemma-verde {
+  z-index: 1;
+  position: absolute;
+  left: 70%;
+  bottom: 55%;
+}
+.techjob #gemma-blu-piccola {
+  position: absolute;
+  bottom: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+}
+.techjob .flextech-container {
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  background: rgba(128, 128, 128, 0.499);
+  -webkit-backdrop-filter: blur(12px);
+          backdrop-filter: blur(12px);
   padding: 30px;
-  background-color: rgba(128, 128, 128, 0.55);
+  border-radius: 15px;
+  width: 80%;
+}
+.techjob .flextech-container .columns-tech-container {
+  display: flex;
+  align-items: center;
+}
+.techjob .flextech-container .columns-tech-container .column {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+.techjob .flextech-container .columns-tech-container .column .tj-info h2 {
+  padding-bottom: 20px;
+}
+.techjob .flextech-container .columns-tech-container .column .tj-info p {
+  padding-bottom: 20px;
+  width: 50%;
+}
+.techjob .flextech-container .tech-you {
+  text-align: start;
+  width: 40%;
+}
+.techjob .flextech-container .tech-you .cristal-container {
+  display: none;
+}
+
+.last-chance {
+  margin-bottom: 200px;
+  display: flex;
+  margin-top: 200px;
+  justify-content: center;
+  gap: 100px;
+}
+.last-chance-left {
+  border-right: solid 2px white;
+}
+.last-chance-left p {
+  padding-bottom: 30px;
+  padding-right: 20px;
+  font-size: 25px;
+  font-weight: bold;
+}
+.last-chance-right h1 {
+  color: #33FFD9;
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+.last-chance-right p {
+  padding-bottom: 20px;
+}
+.last-chance-right .right-options {
+  display: flex;
+  gap: 20px;
+}
+.last-chance-right .right-options .option p {
+  width: 70%;
+}
+.last-chance-right .right-options .option .optionbox {
+  background: rgba(128, 128, 128, 0.46);
   -webkit-backdrop-filter: blur(12px);
           backdrop-filter: blur(12px);
   border-radius: 15px;
-  margin: 0 auto;
-  width: 80%;
+  text-align: center;
+  padding: 20px 5px;
 }
-.techjob-italia-info .tj-flex {
+.last-chance-right .right-options .option .optionbox a {
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 15px;
+}
+.last-chance-right .right-options .option .optionbox #opzione1 {
+  color: black;
+  background: -webkit-linear-gradient(#1fdcaa, #e3770c);
+}
+.last-chance-right .right-options .option .optionbox #opzione2 {
+  color: white;
+  background-color: #FF0076;
+}
+.last-chance-right img {
+  padding-left: 100px;
+  padding-top: 30px;
+}
+
+footer {
   display: flex;
-  width: 100%;
+  justify-content: center;
 }
-.techjob-italia-info .tj-flex .tj-info {
-  margin: 0;
-  width: 70%;
-  text-align: start;
+footer .footer-left {
+  display: flex;
+  justify-content: center;
+  color: #4003CA;
+  width: 45%;
+  background-color: #33FFD9;
 }
-.techjob-italia-info .tj-flex .tj-info h2 {
-  padding-bottom: 20px;
+footer .footer-left .foot-text {
+  padding: 50px 0;
 }
-.techjob-italia-info .tj-flex .tj-info #tj-info-space {
-  padding-bottom: 50px;
+footer .footer-left .foot-text .social-networks {
+  display: flex;
+  gap: 20px;
 }
-.techjob-italia-info #right-tj-info {
-  text-align: start;
-  width: 70%;
+footer .footer-left .foot-text .social-networks img {
+  width: 50px;
 }
-.techjob-italia-info #right-tj-info h2 {
-  padding-bottom: 20px;
+footer .footer-right {
+  display: flex;
+  justify-content: center;
+  color: #33FFD9;
+  width: 55%;
+  background-color: #4003CA;
 }
-.techjob-italia #cristal1 {
+footer .footer-right .foot-text {
+  padding: 50px 0;
+}
+footer .footer-right .foot-text img {
   position: relative;
-  bottom: 100px;
-}
-.techjob .cristallo2 {
-  width: 1000px;
-  position: relative;
-  bottom: 900px;
-  right: 425px;
-  transform: rotate(10deg);
-}
-.techjob .cristallo-media {
-  display: none;
+  left: 560px;
 }
 
 @media screen and (max-width: 700px) {
@@ -779,5 +883,26 @@ body {
 @media screen and (max-width: 915px) {
   .convinced {
     width: 70%;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .techjob .flextech-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .techjob .flextech-container .tech-you {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: start;
+  }
+  .techjob .flextech-container .tech-you .tj-info p {
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+  }
+  .techjob .flextech-container .tech-you .cristal-container {
+    position: absolute;
+    display: block;
+    left: 300px;
   }
 }/*# sourceMappingURL=style.css.map */

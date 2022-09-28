@@ -1,71 +1,94 @@
+
 .techjob {
-    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     padding-top: 100px;
-    background: url(/img/cristallo2.png) no-repeat;
-        background-position: top right;
-    &-italia {
+    color: white;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    
+    
+    #tech-title {
         text-align: center;
-        h1 {
-            padding-bottom: 30px;
-        }
+        padding-bottom: 20px;
+    }
+
+
+    
+    
+    #gemma-blu-grande {
+        z-index: 3;
+        position: absolute;
+        left: -29%;
+        bottom: 45%;
+    
+    }
+
+    #gemma-verde {
+        z-index: 1;
+        position: absolute;
+        left: 70%;
+        bottom: 55%;
+        
+    }
+
+    #gemma-blu-piccola {
+        position: absolute;
+        bottom: 55%;
+        left: 50%;
+        transform: translate(-50% , -50%);
+        z-index: 3;
+    }
+
+
+    .flextech-container {
+        z-index: 2;
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        background: rgba(128, 128, 128, 0.499);
+        backdrop-filter: blur(12px);
+        padding: 30px;
+        border-radius: 15px;
+        width: 80%;
+        
         
 
-        &-info {
-            align-items: center;
+        .columns-tech-container {
             display: flex;
-            justify-content: center;
-            text-align: center;
-            padding: 30px;
-            background-color: rgba(128, 128, 128, 0.55);
-            backdrop-filter: blur(12px);
-            border-radius: 15px;
-            margin: 0 auto;
-            width: 80%;
-
+            align-items: center;
             
-            .tj-flex {
-                display: flex;
-                width: 100%;
+            
+            
+            
+            
+
+            .column {
+                width:max-content;
                 .tj-info {
-                    margin: 0;
-                    width: 70%;
-                    text-align: start;
                     h2 {
                         padding-bottom: 20px;
                     }
-                    
 
-                    #tj-info-space {
-                        padding-bottom: 50px;
+                    p {
+                        padding-bottom: 20px;
+                        width: 50%;
+                        
                     }
                 }
             }
-            #right-tj-info {
-                text-align: start;
-                width: 70%;
-                h2 {
-                    padding-bottom: 20px;
-                }
-                
+        }
+
+        .tech-you {
+            text-align: start;
+            width: 40%;
+        
+            .cristal-container {
+                display: none;
             }
         }
-        #cristal1 {
-            position: relative;
-            bottom: 100px;
-                  
-        } 
-
-    }
-
-   .cristallo2 {
-    width: 1000px;
-    position: relative;
-    bottom: 900px;
-    right: 425px;
-    transform: rotate(10deg);
-   }
-    
-   .cristallo-media {
-       display: none;     
+        
     }
 }

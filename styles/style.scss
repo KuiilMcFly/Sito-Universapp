@@ -5,7 +5,7 @@
 }
 
 body {
-    background: black;
+    background: url(/img/backimg.jpg);
     font-family: 'Roboto', sans-serif;
 }
 @import "utility.scss";
@@ -25,5 +25,9 @@ body {
 @import "payments";
 
 @import "techjob";
+
+@import "lastchance";
+
+@import "footer";
 
 @import "media-query";
