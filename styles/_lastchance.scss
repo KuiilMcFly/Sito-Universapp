@@ -1,9 +1,10 @@
 .last-chance {
-    margin-bottom: 200px;
+    padding: 200px 0;
     display: flex;
-    margin-top: 200px;
     justify-content: center;
     gap: 100px;
+    width: 90%;
+    margin: 0 auto;
 
 
     &-left {
@@ -36,8 +37,7 @@
                     width: 70%;
                 }
                 .optionbox {
-                    background: rgba(128, 128, 128, 0.46);
-                    backdrop-filter: blur(12px);
+                    @include BlueDrop();
                     border-radius: 15px;
                     text-align: center;
                     padding: 20px 5px;
@@ -65,8 +65,9 @@
             
         }
         img {
-            padding-left: 100px;
-            padding-top: 30px;
+            padding: 20px;
+            margin: 0 auto;
+            
         }
     }
 }

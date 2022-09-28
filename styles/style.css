@@ -9,14 +9,193 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+.hero-links-box:hover {
+  box-shadow: inset 0 0 20px;
+  -webkit-animation-name: yhover;
+          animation-name: yhover;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+@-webkit-keyframes yhover {
+  from {
+    box-shadow: inset 0 0 10px yellow;
+  }
+  to {
+    box-shadow: inset 0 0 30px yellow;
+  }
+}
+@keyframes yhover {
+  from {
+    box-shadow: inset 0 0 10px yellow;
+  }
+  to {
+    box-shadow: inset 0 0 30px yellow;
+  }
+}
+
+.benefits-box:hover {
+  box-shadow: inset 0 0 20px;
+  -webkit-animation-name: yhover;
+          animation-name: yhover;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+@keyframes yhover {
+  from {
+    box-shadow: inset 0 0 10px yellow;
+  }
+  to {
+    box-shadow: inset 0 0 30px yellow;
+  }
+}
+
+.reviews-box:hover {
+  box-shadow: inset 0 0 20px;
+  -webkit-animation-name: yhover;
+          animation-name: yhover;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+@keyframes yhover {
+  from {
+    box-shadow: inset 0 0 10px yellow;
+  }
+  to {
+    box-shadow: inset 0 0 30px yellow;
+  }
+}
+
+.topic:hover {
+  box-shadow: inset 0 0 20px;
+  -webkit-animation-name: yhover;
+          animation-name: yhover;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+@keyframes yhover {
+  from {
+    box-shadow: inset 0 0 10px yellow;
+  }
+  to {
+    box-shadow: inset 0 0 30px yellow;
+  }
+}
+
+.pay-price-box:hover {
+  box-shadow: inset 0 0 20px;
+  -webkit-animation-name: yhover;
+          animation-name: yhover;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+@keyframes yhover {
+  from {
+    box-shadow: inset 0 0 10px yellow;
+  }
+  to {
+    box-shadow: inset 0 0 30px yellow;
+  }
+}
+
+.convinced:hover {
+  box-shadow: inset 0 0 20px;
+  -webkit-animation-name: yhover;
+          animation-name: yhover;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+@keyframes yhover {
+  from {
+    box-shadow: inset 0 0 10px yellow;
+  }
+  to {
+    box-shadow: inset 0 0 30px yellow;
+  }
+}
+
+.flextech-container:hover {
+  box-shadow: inset 0 0 20px;
+  -webkit-animation-name: yhover;
+          animation-name: yhover;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+@keyframes yhover {
+  from {
+    box-shadow: inset 0 0 10px yellow;
+  }
+  to {
+    box-shadow: inset 0 0 30px yellow;
+  }
+}
+
+.optionbox:hover {
+  box-shadow: inset 0 0 20px;
+  -webkit-animation-name: yhover;
+          animation-name: yhover;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+@keyframes yhover {
+  from {
+    box-shadow: inset 0 0 10px yellow;
+  }
+  to {
+    box-shadow: inset 0 0 30px yellow;
+  }
+}
+
+.navbar .navbar-links a:hover {
+  box-shadow: inset 0 0 20px;
+  -webkit-animation-name: texty;
+          animation-name: texty;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+@-webkit-keyframes texty {
+  from {
+    color: white;
+  }
+  to {
+    color: yellow;
+  }
+}
+@keyframes texty {
+  from {
+    color: white;
+  }
+  to {
+    color: yellow;
+  }
+}
+
 .navbar {
   display: flex;
   justify-content: space-around;
   align-items: center;
   padding-top: 20px;
-  background-color: rgba(69, 69, 69, 0.503);
+  background-color: rgba(56, 118, 217, 0.608);
   -webkit-backdrop-filter: blur(12px);
           backdrop-filter: blur(12px);
+  box-shadow: inset 0 0 10px #f0f0f0;
   border-bottom: solid 1px rgba(255, 255, 255, 0.495);
 }
 .navbar-links {
@@ -85,9 +264,10 @@ body {
 }
 .hero-left .hero-links .hero-links-box {
   align-items: center;
-  background-color: rgba(128, 128, 128, 0.585);
+  background-color: rgba(56, 118, 217, 0.608);
   -webkit-backdrop-filter: blur(12px);
           backdrop-filter: blur(12px);
+  box-shadow: inset 0 0 10px #f0f0f0;
   border-radius: 15px;
   padding: 30px;
   margin: 0 auto;
@@ -190,9 +370,10 @@ body {
 .benefits-box {
   align-items: center;
   display: flex;
-  background-color: rgba(128, 128, 128, 0.318);
+  background-color: rgba(56, 118, 217, 0.608);
   -webkit-backdrop-filter: blur(12px);
           backdrop-filter: blur(12px);
+  box-shadow: inset 0 0 10px #f0f0f0;
   padding: 30px;
   width: 80%;
   margin: 0 auto;
@@ -231,9 +412,10 @@ body {
   color: white;
 }
 .reviews-box {
-  background: rgba(128, 128, 128, 0.52);
+  background-color: rgba(56, 118, 217, 0.608);
   -webkit-backdrop-filter: blur(12px);
           backdrop-filter: blur(12px);
+  box-shadow: inset 0 0 10px #f0f0f0;
   border-radius: 15px;
   margin: 0 40px;
   padding: 20px;
@@ -284,9 +466,10 @@ body {
 .program .topics-box .topic {
   display: flex;
   color: white;
-  background-color: rgba(128, 128, 128, 0.411);
+  background-color: rgba(56, 118, 217, 0.608);
   -webkit-backdrop-filter: blur(12px);
           backdrop-filter: blur(12px);
+  box-shadow: inset 0 0 10px #f0f0f0;
   border-radius: 15px;
   padding: 20px;
 }
@@ -370,6 +553,7 @@ body {
 }
 .payments h3 {
   padding-bottom: 50px;
+  text-align: center;
 }
 .payments .payments-container {
   display: flex;
@@ -393,9 +577,10 @@ body {
   flex-direction: column;
   align-items: center;
   padding-top: 30px;
-  background-color: rgba(128, 128, 128, 0.504);
+  background-color: rgba(56, 118, 217, 0.608);
   -webkit-backdrop-filter: blur(12px);
           backdrop-filter: blur(12px);
+  box-shadow: inset 0 0 10px #f0f0f0;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
   padding: 50px;
@@ -427,9 +612,10 @@ body {
   position: absolute;
   top: 23em;
   padding: 20px 40px;
-  background-color: rgba(67, 67, 67, 0.697);
+  background-color: rgba(56, 118, 217, 0.608);
   -webkit-backdrop-filter: blur(12px);
           backdrop-filter: blur(12px);
+  box-shadow: inset 0 0 10px #f0f0f0;
   text-align: center;
   border-radius: 15px;
 }
@@ -456,9 +642,10 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgba(128, 128, 128, 0.458);
+  background-color: rgba(56, 118, 217, 0.608);
   -webkit-backdrop-filter: blur(12px);
           backdrop-filter: blur(12px);
+  box-shadow: inset 0 0 10px #f0f0f0;
   border-radius: 15px;
   padding: 64px;
 }
@@ -475,9 +662,10 @@ body {
 .payments .convinced .media-try-box {
   position: absolute;
   top: 138px;
-  background-color: rgba(128, 128, 128, 0.509);
+  background-color: rgba(56, 118, 217, 0.608);
   -webkit-backdrop-filter: blur(12px);
           backdrop-filter: blur(12px);
+  box-shadow: inset 0 0 10px #f0f0f0;
   padding: 30px 50px;
   border-radius: 15px;
 }
@@ -517,7 +705,7 @@ body {
 .techjob #gemma-blu-grande {
   z-index: 3;
   position: absolute;
-  left: -29%;
+  left: -22%;
   bottom: 45%;
 }
 .techjob #gemma-verde {
@@ -538,9 +726,10 @@ body {
   display: flex;
   align-items: center;
   margin: 0 auto;
-  background: rgba(128, 128, 128, 0.499);
+  background-color: rgba(56, 118, 217, 0.608);
   -webkit-backdrop-filter: blur(12px);
           backdrop-filter: blur(12px);
+  box-shadow: inset 0 0 10px #f0f0f0;
   padding: 30px;
   border-radius: 15px;
   width: 80%;
@@ -561,20 +750,14 @@ body {
   padding-bottom: 20px;
   width: 50%;
 }
-.techjob .flextech-container .tech-you {
-  text-align: start;
-  width: 40%;
-}
-.techjob .flextech-container .tech-you .cristal-container {
-  display: none;
-}
 
 .last-chance {
-  margin-bottom: 200px;
+  padding: 200px 0;
   display: flex;
-  margin-top: 200px;
   justify-content: center;
   gap: 100px;
+  width: 90%;
+  margin: 0 auto;
 }
 .last-chance-left {
   border-right: solid 2px white;
@@ -601,9 +784,10 @@ body {
   width: 70%;
 }
 .last-chance-right .right-options .option .optionbox {
-  background: rgba(128, 128, 128, 0.46);
+  background-color: rgba(56, 118, 217, 0.608);
   -webkit-backdrop-filter: blur(12px);
           backdrop-filter: blur(12px);
+  box-shadow: inset 0 0 10px #f0f0f0;
   border-radius: 15px;
   text-align: center;
   padding: 20px 5px;
@@ -622,8 +806,8 @@ body {
   background-color: #FF0076;
 }
 .last-chance-right img {
-  padding-left: 100px;
-  padding-top: 30px;
+  padding: 20px;
+  margin: 0 auto;
 }
 
 footer {
@@ -648,6 +832,7 @@ footer .footer-left .foot-text .social-networks img {
   width: 50px;
 }
 footer .footer-right {
+  padding-left: 20px;
   display: flex;
   justify-content: center;
   color: #33FFD9;
@@ -658,8 +843,7 @@ footer .footer-right .foot-text {
   padding: 50px 0;
 }
 footer .footer-right .foot-text img {
-  position: relative;
-  left: 560px;
+  padding-top: 20px;
 }
 
 @media screen and (max-width: 700px) {
@@ -885,24 +1069,132 @@ footer .footer-right .foot-text img {
     width: 70%;
   }
 }
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1900px) {
+  .techjob #gemma-blu-grande {
+    left: -30%;
+  }
+}
+@media screen and (max-width: 1520px) {
+  .techjob #gemma-blu-grande {
+    left: -35%;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .techjob #gemma-blu-grande {
+    left: -40%;
+  }
+  .techjob #gemma-blu-piccola {
+    right: 48%;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .techjob #gemma-blu-grande {
+    left: -50%;
+  }
+  .techjob #gemma-verde {
+    z-index: 3;
+    left: 50%;
+  }
+  .techjob #gemma-blu-piccola {
+    bottom: 50%;
+    right: 40%;
+  }
   .techjob .flextech-container {
-    display: flex;
-    flex-direction: column;
+    display: grid;
   }
   .techjob .flextech-container .tech-you {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    text-align: start;
+    display: flex;
+    width: 50%;
   }
-  .techjob .flextech-container .tech-you .tj-info p {
-    width: -webkit-max-content;
-    width: -moz-max-content;
-    width: max-content;
+}
+@media screen and (max-width: 1060px) {
+  #gemma-blu-grande {
+    display: none;
   }
-  .techjob .flextech-container .tech-you .cristal-container {
-    position: absolute;
+  #gemma-blu-piccola {
+    position: relative;
+    top: 30%;
+  }
+  #gemma-verde {
+    position: relative;
+    top: 3%;
+  }
+}
+@media screen and (max-width: 915px) {
+  #gemma-blu-grande {
+    display: none;
+  }
+  #gemma-blu-piccola {
+    padding-left: 100px;
+  }
+  #gemma-verde {
+    display: none;
+  }
+}
+@media screen and (max-width: 750px) {
+  #gemma-verde {
+    display: none;
+  }
+  #gemma-blu-piccola {
+    padding-left: 150px;
+  }
+  .flextech-container .columns-tech-container {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 615px) {
+  #gemma-blu-piccola {
+    padding: 0;
+  }
+  #gemma-verde {
     display: block;
-    left: 300px;
+    top: 3%;
+  }
+  .flextech-container .columns-tech-container {
+    flex-direction: column;
+  }
+  .flextech-container .columns-tech-container .column {
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 425px) {
+  #gemma-blu-piccola {
+    display: none;
+  }
+}
+@media screen and (max-width: 1060px) {
+  .last-chance {
+    flex-direction: column;
+    align-items: center;
+  }
+  .last-chance-left {
+    border-right: none;
+  }
+}
+@media screen and (max-width: 520px) {
+  .last-chance {
+    text-align: center;
+    width: 70%;
+  }
+  .last-chance-right .right-options {
+    flex-direction: column;
+  }
+  .last-chance-right .right-options .option p {
+    margin: 0 auto;
+  }
+  .last-chance-right .right-options .option .optionbox {
+    margin: 0 auto;
+    width: 50%;
+  }
+}
+@media screen and (max-width: 770px) {
+  footer {
+    flex-direction: column;
+  }
+  footer .footer-left {
+    width: 100%;
+  }
+  footer .footer-right {
+    width: 100%;
   }
 }/*# sourceMappingURL=style.css.map */

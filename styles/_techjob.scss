@@ -21,7 +21,7 @@
     #gemma-blu-grande {
         z-index: 3;
         position: absolute;
-        left: -29%;
+        left: -22%;
         bottom: 45%;
     
     }
@@ -48,8 +48,7 @@
         display: flex;
         align-items: center;
         margin: 0 auto;
-        background: rgba(128, 128, 128, 0.499);
-        backdrop-filter: blur(12px);
+        @include BlueDrop();
         padding: 30px;
         border-radius: 15px;
         width: 80%;
@@ -81,14 +80,7 @@
             }
         }
 
-        .tech-you {
-            text-align: start;
-            width: 40%;
         
-            .cristal-container {
-                display: none;
-            }
-        }
         
     }
 }

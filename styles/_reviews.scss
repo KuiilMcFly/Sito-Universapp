@@ -25,8 +25,7 @@
     
     
     &-box {
-        background: rgba(128, 128, 128, 0.52);
-        backdrop-filter: blur(12px);
+        @include BlueDrop();
         border-radius: 15px;
         margin: 0 40px;
         padding: 20px;

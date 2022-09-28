@@ -1,0 +1,36 @@
+@media screen and (max-width: 1060px) {
+
+    .last-chance {
+        flex-direction: column;
+        align-items: center;
+
+        &-left {
+            border-right: none;
+        }
+    }
+}
+
+
+@media screen and (max-width: 520px) {
+
+.last-chance {
+    text-align: center;
+    width: 70%;
+    &-right {
+        .right-options {
+            flex-direction: column;
+            .option {
+                p {
+                    margin: 0 auto;
+                }
+                
+                .optionbox {
+                    margin: 0 auto;
+                    width: 50%;
+                }
+            }
+        }
+    }
+}
+
+}

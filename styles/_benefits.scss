@@ -28,8 +28,7 @@
         
         align-items: center;
         display: flex;
-        background-color: rgba(128, 128, 128, 0.318);
-        backdrop-filter: blur(12px);
+        @include BlueDrop();
         padding: 30px;
         width: 80%;
         margin: 0 auto;
