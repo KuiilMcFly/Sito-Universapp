@@ -18,20 +18,20 @@ body {
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
 }
-@-webkit-keyframes yhover {
+@-webkit-keyframes heroHover {
   from {
-    box-shadow: inset 0 0 10px yellow;
+    box-shadow: inset 0 0 10px #FF0EAB;
   }
   to {
-    box-shadow: inset 0 0 30px yellow;
+    box-shadow: inset 0 0 30px #FF0EAB;
   }
 }
-@keyframes yhover {
+@keyframes heroHover {
   from {
-    box-shadow: inset 0 0 10px yellow;
+    box-shadow: inset 0 0 10px #FF0EAB;
   }
   to {
-    box-shadow: inset 0 0 30px yellow;
+    box-shadow: inset 0 0 30px #FF0EAB;
   }
 }
 
@@ -44,12 +44,20 @@ body {
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
 }
-@keyframes yhover {
+@-webkit-keyframes benefitsHover {
   from {
-    box-shadow: inset 0 0 10px yellow;
+    box-shadow: inset 0 0 10px rgba(149, 135, 241, 0.4941176471);
   }
   to {
-    box-shadow: inset 0 0 30px yellow;
+    box-shadow: inset 0 0 30px rgba(149, 135, 241, 0.4941176471);
+  }
+}
+@keyframes benefitsHover {
+  from {
+    box-shadow: inset 0 0 10px rgba(149, 135, 241, 0.4941176471);
+  }
+  to {
+    box-shadow: inset 0 0 30px rgba(149, 135, 241, 0.4941176471);
   }
 }
 
@@ -62,12 +70,20 @@ body {
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
 }
-@keyframes yhover {
+@-webkit-keyframes reviewsHover {
   from {
-    box-shadow: inset 0 0 10px yellow;
+    box-shadow: inset 0 0 10px rgba(231, 90, 19, 0.5019607843);
   }
   to {
-    box-shadow: inset 0 0 30px yellow;
+    box-shadow: inset 0 0 30px rgba(231, 90, 19, 0.5019607843);
+  }
+}
+@keyframes reviewsHover {
+  from {
+    box-shadow: inset 0 0 10px rgba(231, 90, 19, 0.5019607843);
+  }
+  to {
+    box-shadow: inset 0 0 30px rgba(231, 90, 19, 0.5019607843);
   }
 }
 
@@ -79,6 +95,14 @@ body {
           animation-duration: 2s;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
+}
+@-webkit-keyframes yhover {
+  from {
+    box-shadow: inset 0 0 10px yellow;
+  }
+  to {
+    box-shadow: inset 0 0 30px yellow;
+  }
 }
 @keyframes yhover {
   from {
@@ -161,6 +185,34 @@ body {
   }
 }
 
+.hero-links-box {
+  background-color: rgba(149, 135, 241, 0.4941176471);
+  -webkit-backdrop-filter: blur(12px);
+          backdrop-filter: blur(12px);
+  box-shadow: inset 0 0 10px #f0f0f0;
+}
+
+.benefits-box {
+  background-color: rgba(243, 215, 168, 0.4078431373);
+  -webkit-backdrop-filter: blur(12px);
+          backdrop-filter: blur(12px);
+  box-shadow: inset 0 0 10px #f0f0f0;
+}
+
+.reviews-box {
+  background-color: rgba(71, 12, 173, 0.4666666667);
+  -webkit-backdrop-filter: blur(12px);
+          backdrop-filter: blur(12px);
+  box-shadow: inset 0 0 10px #f0f0f0;
+}
+
+.topic {
+  background-color: rgba(140, 63, 216, 0.4901960784);
+  -webkit-backdrop-filter: blur(12px);
+          backdrop-filter: blur(12px);
+  box-shadow: inset 0 0 10px #f0f0f0;
+}
+
 .navbar .navbar-links a:hover {
   box-shadow: inset 0 0 20px;
   -webkit-animation-name: texty;
@@ -192,7 +244,7 @@ body {
   justify-content: space-around;
   align-items: center;
   padding-top: 20px;
-  background-color: rgba(56, 118, 217, 0.608);
+  background-color: rgba(36, 36, 36, 0.517);
   -webkit-backdrop-filter: blur(12px);
           backdrop-filter: blur(12px);
   box-shadow: inset 0 0 10px #f0f0f0;
@@ -264,10 +316,6 @@ body {
 }
 .hero-left .hero-links .hero-links-box {
   align-items: center;
-  background-color: rgba(56, 118, 217, 0.608);
-  -webkit-backdrop-filter: blur(12px);
-          backdrop-filter: blur(12px);
-  box-shadow: inset 0 0 10px #f0f0f0;
   border-radius: 15px;
   padding: 30px;
   margin: 0 auto;
@@ -370,10 +418,6 @@ body {
 .benefits-box {
   align-items: center;
   display: flex;
-  background-color: rgba(56, 118, 217, 0.608);
-  -webkit-backdrop-filter: blur(12px);
-          backdrop-filter: blur(12px);
-  box-shadow: inset 0 0 10px #f0f0f0;
   padding: 30px;
   width: 80%;
   margin: 0 auto;
@@ -412,10 +456,6 @@ body {
   color: white;
 }
 .reviews-box {
-  background-color: rgba(56, 118, 217, 0.608);
-  -webkit-backdrop-filter: blur(12px);
-          backdrop-filter: blur(12px);
-  box-shadow: inset 0 0 10px #f0f0f0;
   border-radius: 15px;
   margin: 0 40px;
   padding: 20px;
@@ -466,10 +506,6 @@ body {
 .program .topics-box .topic {
   display: flex;
   color: white;
-  background-color: rgba(56, 118, 217, 0.608);
-  -webkit-backdrop-filter: blur(12px);
-          backdrop-filter: blur(12px);
-  box-shadow: inset 0 0 10px #f0f0f0;
   border-radius: 15px;
   padding: 20px;
 }
@@ -577,7 +613,7 @@ body {
   flex-direction: column;
   align-items: center;
   padding-top: 30px;
-  background-color: rgba(56, 118, 217, 0.608);
+  background-color: rgba(36, 36, 36, 0.517);
   -webkit-backdrop-filter: blur(12px);
           backdrop-filter: blur(12px);
   box-shadow: inset 0 0 10px #f0f0f0;
@@ -612,7 +648,7 @@ body {
   position: absolute;
   top: 23em;
   padding: 20px 40px;
-  background-color: rgba(56, 118, 217, 0.608);
+  background-color: rgba(36, 36, 36, 0.517);
   -webkit-backdrop-filter: blur(12px);
           backdrop-filter: blur(12px);
   box-shadow: inset 0 0 10px #f0f0f0;
@@ -642,7 +678,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgba(56, 118, 217, 0.608);
+  background-color: rgba(36, 36, 36, 0.517);
   -webkit-backdrop-filter: blur(12px);
           backdrop-filter: blur(12px);
   box-shadow: inset 0 0 10px #f0f0f0;
@@ -662,7 +698,7 @@ body {
 .payments .convinced .media-try-box {
   position: absolute;
   top: 138px;
-  background-color: rgba(56, 118, 217, 0.608);
+  background-color: rgba(36, 36, 36, 0.517);
   -webkit-backdrop-filter: blur(12px);
           backdrop-filter: blur(12px);
   box-shadow: inset 0 0 10px #f0f0f0;
@@ -726,7 +762,7 @@ body {
   display: flex;
   align-items: center;
   margin: 0 auto;
-  background-color: rgba(56, 118, 217, 0.608);
+  background-color: rgba(36, 36, 36, 0.517);
   -webkit-backdrop-filter: blur(12px);
           backdrop-filter: blur(12px);
   box-shadow: inset 0 0 10px #f0f0f0;
@@ -784,7 +820,7 @@ body {
   width: 70%;
 }
 .last-chance-right .right-options .option .optionbox {
-  background-color: rgba(56, 118, 217, 0.608);
+  background-color: rgba(36, 36, 36, 0.517);
   -webkit-backdrop-filter: blur(12px);
           backdrop-filter: blur(12px);
   box-shadow: inset 0 0 10px #f0f0f0;

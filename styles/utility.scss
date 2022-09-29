@@ -6,7 +6,7 @@
 
 
 @mixin BlueDrop {
-    background-color: rgba(56, 118, 217, 0.608);
+    background-color: rgba(36, 36, 36, 0.517);
     backdrop-filter: blur(12px);
     -moz-box-shadow:    inset 0 0 10px #ececec;
     -webkit-box-shadow: inset 0 0 10px #f3f3f3;
@@ -31,6 +31,138 @@
     -moz-box-shadow:    inset 0 0 30px yellow ;
     -webkit-box-shadow: inset 0 0 30px yellow ;
     box-shadow:         inset 0 0 30px yellow ;
+        }
+    }
+}
+
+
+
+//hero hover
+@mixin heroDrop {
+    background-color: #9587f17e;
+    backdrop-filter: blur(12px);
+    -moz-box-shadow:    inset 0 0 10px #ececec;
+    -webkit-box-shadow: inset 0 0 10px #f3f3f3;
+    box-shadow:         inset 0 0 10px #f0f0f0;
+}
+
+@mixin heroHover {
+    -moz-box-shadow:    inset 0 0 20px ;
+    -webkit-box-shadow: inset 0 0 20px ;
+    box-shadow:         inset 0 0 20px ;
+    animation-name: yhover;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+
+    @keyframes heroHover {
+        from {
+    -moz-box-shadow:    inset 0 0 10px #FF0EAB ;
+    -webkit-box-shadow: inset 0 0 10px #FF0EAB;
+    box-shadow:         inset 0 0 10px #FF0EAB ;
+        }
+        to {
+    -moz-box-shadow:    inset 0 0 30px #FF0EAB ;
+    -webkit-box-shadow: inset 0 0 30px #FF0EAB ;
+    box-shadow:         inset 0 0 30px #FF0EAB;
+        }
+    }
+}
+
+
+
+//Benefits background and hover
+
+@mixin benefitsDrop {
+    background-color: #f3d7a868;
+    backdrop-filter: blur(12px);
+    -moz-box-shadow:    inset 0 0 10px #ececec;
+    -webkit-box-shadow: inset 0 0 10px #f3f3f3;
+    box-shadow:         inset 0 0 10px #f0f0f0;
+}
+
+@mixin benefitsHover {
+    -moz-box-shadow:    inset 0 0 20px ;
+    -webkit-box-shadow: inset 0 0 20px ;
+    box-shadow:         inset 0 0 20px ;
+    animation-name: yhover;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+
+    @keyframes benefitsHover {
+        from {
+    -moz-box-shadow:    inset 0 0 10px #9587f17e;
+    -webkit-box-shadow: inset 0 0 10px #9587f17e;
+    box-shadow:         inset 0 0 10px #9587f17e;
+        }
+        to {
+    -moz-box-shadow:    inset 0 0 30px #9587f17e;
+    -webkit-box-shadow: inset 0 0 30px #9587f17e;
+    box-shadow:         inset 0 0 30px #9587f17e;
+        }
+    }
+}
+
+
+//Reviews background and hover
+
+@mixin reviewsDrop {
+    background-color: #470cad77;
+    backdrop-filter: blur(12px);
+    -moz-box-shadow:    inset 0 0 10px #ececec;
+    -webkit-box-shadow: inset 0 0 10px #f3f3f3;
+    box-shadow:         inset 0 0 10px #f0f0f0;
+}
+
+@mixin reviewsHover {
+    -moz-box-shadow:    inset 0 0 20px ;
+    -webkit-box-shadow: inset 0 0 20px ;
+    box-shadow:         inset 0 0 20px ;
+    animation-name: yhover;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+
+    @keyframes reviewsHover {
+        from {
+    -moz-box-shadow:    inset 0 0 10px #e75a1380;
+    -webkit-box-shadow: inset 0 0 10px #e75a1380;
+    box-shadow:         inset 0 0 10px #e75a1380;
+        }
+        to {
+    -moz-box-shadow:    inset 0 0 30px #e75a1380;
+    -webkit-box-shadow: inset 0 0 30px #e75a1380;
+    box-shadow:         inset 0 0 30px #e75a1380;
+        }
+    }
+}
+
+//topic
+
+@mixin topicDrop {
+    background-color: #8c3fd87d;
+    backdrop-filter: blur(12px);
+    -moz-box-shadow:    inset 0 0 10px #ececec;
+    -webkit-box-shadow: inset 0 0 10px #f3f3f3;
+    box-shadow:         inset 0 0 10px #f0f0f0;
+}
+
+@mixin topicHover {
+    -moz-box-shadow:    inset 0 0 20px ;
+    -webkit-box-shadow: inset 0 0 20px ;
+    box-shadow:         inset 0 0 20px ;
+    animation-name: yhover;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+
+    @keyframes topicHover {
+        from {
+    -moz-box-shadow:    inset 0 0 10px #e75a1380;
+    -webkit-box-shadow: inset 0 0 10px #e75a1380;
+    box-shadow:         inset 0 0 10px #e75a1380;
+        }
+        to {
+    -moz-box-shadow:    inset 0 0 30px #e75a1380;
+    -webkit-box-shadow: inset 0 0 30px #e75a1380;
+    box-shadow:         inset 0 0 30px #e75a1380;
         }
     }
 }

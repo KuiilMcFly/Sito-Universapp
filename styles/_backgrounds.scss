@@ -1,0 +1,15 @@
+.hero-links-box {
+    @include heroDrop();
+}
+
+.benefits-box {
+    @include benefitsDrop();
+}
+
+.reviews-box {
+    @include reviewsDrop();
+}
+
+.topic {
+    @include topicDrop();
+}

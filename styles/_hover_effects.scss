@@ -1,13 +1,13 @@
 .hero-links-box:hover {
-    @include yHover ();
+    @include heroHover();
 }
 
 .benefits-box:hover {
-    @include yHover();
+    @include benefitsHover();
 }
 
 .reviews-box:hover {
-    @include yHover();
+    @include reviewsHover();
 }
 
 .topic:hover {
