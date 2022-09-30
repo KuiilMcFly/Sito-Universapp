@@ -5,7 +5,7 @@
 }
 
 body {
-    background: url(/img/backimg.jpg);
+    background: url(../img/backimg.jpg);
     font-family: 'Roboto', sans-serif;
 }
 @import "utility.scss";
@@ -13,6 +13,8 @@ body {
 @import "hover_effects";
 
 @import "backgrounds";
+
+@import "boxshadow";
 
 @import "navbar";
 

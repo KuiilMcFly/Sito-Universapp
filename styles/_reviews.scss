@@ -1,6 +1,8 @@
 
 .reviews-title {
-    color: white;
+    background: -webkit-linear-gradient(white 80%, #470cad);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-size: 40px;
     text-align: center;
     padding-top: 80px;

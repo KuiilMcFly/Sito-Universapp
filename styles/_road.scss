@@ -11,6 +11,9 @@
         
 
         h1 {
+        background: -webkit-linear-gradient(white 40%, #D24C8F);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
             font-size: 40px;
         }
         p {

@@ -36,7 +36,6 @@
 }
 
 
-
 //hero hover
 @mixin heroDrop {
     background-color: #9587f17e;
@@ -46,27 +45,7 @@
     box-shadow:         inset 0 0 10px #f0f0f0;
 }
 
-@mixin heroHover {
-    -moz-box-shadow:    inset 0 0 20px ;
-    -webkit-box-shadow: inset 0 0 20px ;
-    box-shadow:         inset 0 0 20px ;
-    animation-name: yhover;
-    animation-duration: 2s;
-    animation-fill-mode: forwards;
 
-    @keyframes heroHover {
-        from {
-    -moz-box-shadow:    inset 0 0 10px #FF0EAB ;
-    -webkit-box-shadow: inset 0 0 10px #FF0EAB;
-    box-shadow:         inset 0 0 10px #FF0EAB ;
-        }
-        to {
-    -moz-box-shadow:    inset 0 0 30px #FF0EAB ;
-    -webkit-box-shadow: inset 0 0 30px #FF0EAB ;
-    box-shadow:         inset 0 0 30px #FF0EAB;
-        }
-    }
-}
 
 
 
@@ -80,60 +59,20 @@
     box-shadow:         inset 0 0 10px #f0f0f0;
 }
 
-@mixin benefitsHover {
-    -moz-box-shadow:    inset 0 0 20px ;
-    -webkit-box-shadow: inset 0 0 20px ;
-    box-shadow:         inset 0 0 20px ;
-    animation-name: yhover;
-    animation-duration: 2s;
-    animation-fill-mode: forwards;
 
-    @keyframes benefitsHover {
-        from {
-    -moz-box-shadow:    inset 0 0 10px #9587f17e;
-    -webkit-box-shadow: inset 0 0 10px #9587f17e;
-    box-shadow:         inset 0 0 10px #9587f17e;
-        }
-        to {
-    -moz-box-shadow:    inset 0 0 30px #9587f17e;
-    -webkit-box-shadow: inset 0 0 30px #9587f17e;
-    box-shadow:         inset 0 0 30px #9587f17e;
-        }
-    }
-}
 
 
 //Reviews background and hover
 
 @mixin reviewsDrop {
-    background-color: #470cad77;
+    background: -webkit-linear-gradient(#470cad77, rgba(205, 100, 8, 0.466));
     backdrop-filter: blur(12px);
     -moz-box-shadow:    inset 0 0 10px #ececec;
     -webkit-box-shadow: inset 0 0 10px #f3f3f3;
     box-shadow:         inset 0 0 10px #f0f0f0;
 }
 
-@mixin reviewsHover {
-    -moz-box-shadow:    inset 0 0 20px ;
-    -webkit-box-shadow: inset 0 0 20px ;
-    box-shadow:         inset 0 0 20px ;
-    animation-name: yhover;
-    animation-duration: 2s;
-    animation-fill-mode: forwards;
 
-    @keyframes reviewsHover {
-        from {
-    -moz-box-shadow:    inset 0 0 10px #e75a1380;
-    -webkit-box-shadow: inset 0 0 10px #e75a1380;
-    box-shadow:         inset 0 0 10px #e75a1380;
-        }
-        to {
-    -moz-box-shadow:    inset 0 0 30px #e75a1380;
-    -webkit-box-shadow: inset 0 0 30px #e75a1380;
-    box-shadow:         inset 0 0 30px #e75a1380;
-        }
-    }
-}
 
 //topic
 
@@ -145,24 +84,36 @@
     box-shadow:         inset 0 0 10px #f0f0f0;
 }
 
-@mixin topicHover {
-    -moz-box-shadow:    inset 0 0 20px ;
-    -webkit-box-shadow: inset 0 0 20px ;
-    box-shadow:         inset 0 0 20px ;
-    animation-name: yhover;
-    animation-duration: 2s;
-    animation-fill-mode: forwards;
 
-    @keyframes topicHover {
-        from {
-    -moz-box-shadow:    inset 0 0 10px #e75a1380;
-    -webkit-box-shadow: inset 0 0 10px #e75a1380;
-    box-shadow:         inset 0 0 10px #e75a1380;
-        }
-        to {
-    -moz-box-shadow:    inset 0 0 30px #e75a1380;
-    -webkit-box-shadow: inset 0 0 30px #e75a1380;
-    box-shadow:         inset 0 0 30px #e75a1380;
-        }
-    }
+
+//Payments
+
+@mixin payDrop1 {
+    background-color: #e4861261;
+    backdrop-filter: blur(12px);
+    -moz-box-shadow:    inset 0 0 10px #ececec;
+    -webkit-box-shadow: inset 0 0 10px #f3f3f3;
+    box-shadow:         inset 0 0 10px #f0f0f0;
 }
+
+
+
+@mixin payDrop2 {
+    background-color: #970cee75;
+    backdrop-filter: blur(12px);
+    -moz-box-shadow:    inset 0 0 10px #ececec;
+    -webkit-box-shadow: inset 0 0 10px #f3f3f3;
+    box-shadow:         inset 0 0 10px #f0f0f0;
+}
+
+
+
+//Techjob 
+@mixin techDrop {
+    background: -webkit-linear-gradient(#5ac3cb9d, #67d68191);
+    backdrop-filter: blur(12px);
+    -moz-box-shadow:    inset 0 0 10px #ececec;
+    -webkit-box-shadow: inset 0 0 10px #f3f3f3;
+    box-shadow:         inset 0 0 10px #f0f0f0;
+}
+

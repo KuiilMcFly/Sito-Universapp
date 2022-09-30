@@ -14,15 +14,19 @@
 
         h1{
             font-size: 60px;
-            font-weight: bolder;  
+            font-weight:bolder; 
         }
 
         #programmer {
-            color: #2D85D3;
+            background: -webkit-linear-gradient(#2D85D3 50%, #4e95d3);
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
         }
 
         #complete {
-            color: #313ACE;
+        background: -webkit-linear-gradient(#2F45CF 50%, #3D0ECA);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
         }
 
         .hero-title {

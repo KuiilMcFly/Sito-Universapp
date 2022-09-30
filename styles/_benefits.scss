@@ -12,6 +12,9 @@
 
     &-title {
         font-size: 40px;
+        background: -webkit-linear-gradient(white 50%, #f3d7a8);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
 
     #backimg {

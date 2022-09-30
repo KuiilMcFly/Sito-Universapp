@@ -13,3 +13,16 @@
 .topic {
     @include topicDrop();
 }
+
+#greendrop {
+    @include payDrop1();
+}
+
+#pinkdrop {
+    @include payDrop2()
+}
+
+.flextech-container {
+    @include techDrop()
+}
+

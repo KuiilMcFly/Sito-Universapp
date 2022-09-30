@@ -5,89 +5,11 @@
 }
 
 body {
-  background: url(/img/backimg.jpg);
+  background: url(../img/backimg.jpg);
   font-family: "Roboto", sans-serif;
 }
 
 .hero-links-box:hover {
-  box-shadow: inset 0 0 20px;
-  -webkit-animation-name: yhover;
-          animation-name: yhover;
-  -webkit-animation-duration: 2s;
-          animation-duration: 2s;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-}
-@-webkit-keyframes heroHover {
-  from {
-    box-shadow: inset 0 0 10px #FF0EAB;
-  }
-  to {
-    box-shadow: inset 0 0 30px #FF0EAB;
-  }
-}
-@keyframes heroHover {
-  from {
-    box-shadow: inset 0 0 10px #FF0EAB;
-  }
-  to {
-    box-shadow: inset 0 0 30px #FF0EAB;
-  }
-}
-
-.benefits-box:hover {
-  box-shadow: inset 0 0 20px;
-  -webkit-animation-name: yhover;
-          animation-name: yhover;
-  -webkit-animation-duration: 2s;
-          animation-duration: 2s;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-}
-@-webkit-keyframes benefitsHover {
-  from {
-    box-shadow: inset 0 0 10px rgba(149, 135, 241, 0.4941176471);
-  }
-  to {
-    box-shadow: inset 0 0 30px rgba(149, 135, 241, 0.4941176471);
-  }
-}
-@keyframes benefitsHover {
-  from {
-    box-shadow: inset 0 0 10px rgba(149, 135, 241, 0.4941176471);
-  }
-  to {
-    box-shadow: inset 0 0 30px rgba(149, 135, 241, 0.4941176471);
-  }
-}
-
-.reviews-box:hover {
-  box-shadow: inset 0 0 20px;
-  -webkit-animation-name: yhover;
-          animation-name: yhover;
-  -webkit-animation-duration: 2s;
-          animation-duration: 2s;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-}
-@-webkit-keyframes reviewsHover {
-  from {
-    box-shadow: inset 0 0 10px rgba(231, 90, 19, 0.5019607843);
-  }
-  to {
-    box-shadow: inset 0 0 30px rgba(231, 90, 19, 0.5019607843);
-  }
-}
-@keyframes reviewsHover {
-  from {
-    box-shadow: inset 0 0 10px rgba(231, 90, 19, 0.5019607843);
-  }
-  to {
-    box-shadow: inset 0 0 30px rgba(231, 90, 19, 0.5019607843);
-  }
-}
-
-.topic:hover {
   box-shadow: inset 0 0 20px;
   -webkit-animation-name: yhover;
           animation-name: yhover;
@@ -113,7 +35,79 @@ body {
   }
 }
 
-.pay-price-box:hover {
+.benefits-box:hover {
+  box-shadow: inset 0 0 20px;
+  -webkit-animation-name: yhover;
+          animation-name: yhover;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+@keyframes yhover {
+  from {
+    box-shadow: inset 0 0 10px yellow;
+  }
+  to {
+    box-shadow: inset 0 0 30px yellow;
+  }
+}
+
+.reviews-box:hover {
+  box-shadow: inset 0 0 20px;
+  -webkit-animation-name: yhover;
+          animation-name: yhover;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+@keyframes yhover {
+  from {
+    box-shadow: inset 0 0 10px yellow;
+  }
+  to {
+    box-shadow: inset 0 0 30px yellow;
+  }
+}
+
+.topic:hover {
+  box-shadow: inset 0 0 20px;
+  -webkit-animation-name: yhover;
+          animation-name: yhover;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+@keyframes yhover {
+  from {
+    box-shadow: inset 0 0 10px yellow;
+  }
+  to {
+    box-shadow: inset 0 0 30px yellow;
+  }
+}
+
+#greendrop:hover {
+  box-shadow: inset 0 0 20px;
+  -webkit-animation-name: yhover;
+          animation-name: yhover;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+@keyframes yhover {
+  from {
+    box-shadow: inset 0 0 10px yellow;
+  }
+  to {
+    box-shadow: inset 0 0 30px yellow;
+  }
+}
+
+#pinkdrop:hover {
   box-shadow: inset 0 0 20px;
   -webkit-animation-name: yhover;
           animation-name: yhover;
@@ -200,7 +194,7 @@ body {
 }
 
 .reviews-box {
-  background-color: rgba(71, 12, 173, 0.4666666667);
+  background: -webkit-linear-gradient(rgba(71, 12, 173, 0.4666666667), rgba(255, 119, 0, 0.466));
   -webkit-backdrop-filter: blur(12px);
           backdrop-filter: blur(12px);
   box-shadow: inset 0 0 10px #f0f0f0;
@@ -211,6 +205,34 @@ body {
   -webkit-backdrop-filter: blur(12px);
           backdrop-filter: blur(12px);
   box-shadow: inset 0 0 10px #f0f0f0;
+}
+
+#greendrop {
+  background-color: rgba(228, 134, 18, 0.3803921569);
+  -webkit-backdrop-filter: blur(12px);
+          backdrop-filter: blur(12px);
+  box-shadow: inset 0 0 10px #f0f0f0;
+}
+
+#pinkdrop {
+  background-color: rgba(151, 12, 238, 0.4588235294);
+  -webkit-backdrop-filter: blur(12px);
+          backdrop-filter: blur(12px);
+  box-shadow: inset 0 0 10px #f0f0f0;
+}
+
+.flextech-container {
+  background: -webkit-linear-gradient(rgba(90, 195, 203, 0.6156862745), rgba(103, 214, 129, 0.568627451));
+  -webkit-backdrop-filter: blur(12px);
+          backdrop-filter: blur(12px);
+  box-shadow: inset 0 0 10px #f0f0f0;
+}
+
+.navbar #candidati {
+  box-shadow: 2px 2px 5px 6px rgba(228, 9, 151, 0.294);
+}
+.navbar #signup {
+  box-shadow: 2px 2px 5px 6px rgba(228, 9, 151, 0.25);
 }
 
 .navbar .navbar-links a:hover {
@@ -264,7 +286,7 @@ body {
   text-align: center;
 }
 .navbar-links #candidati {
-  background: #ff00b5;
+  background: -webkit-linear-gradient(#ff00b5, #ff0066);
 }
 .navbar-links #signup {
   border: solid 2px #ff00b5;
@@ -287,10 +309,16 @@ body {
   font-weight: bolder;
 }
 .hero-left #programmer {
-  color: #2D85D3;
+  background: -webkit-linear-gradient(#2D85D3 50%, #4e95d3);
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .hero-left #complete {
-  color: #313ACE;
+  background: -webkit-linear-gradient(#2F45CF 50%, #3D0ECA);
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .hero-left .hero-title {
   padding-bottom: 30px;
@@ -409,6 +437,10 @@ body {
 }
 .benefits-title {
   font-size: 40px;
+  background: -webkit-linear-gradient(white 50%, #f3d7a8);
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .benefits #backimg {
   position: absolute;
@@ -436,7 +468,10 @@ body {
 }
 
 .reviews-title {
-  color: white;
+  background: -webkit-linear-gradient(white 80%, #470cad);
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-size: 40px;
   text-align: center;
   padding-top: 80px;
@@ -476,6 +511,10 @@ body {
   width: 30%;
 }
 .road-left h1 {
+  background: -webkit-linear-gradient(white 40%, #D24C8F);
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-size: 40px;
 }
 .road-left p {
@@ -613,10 +652,6 @@ body {
   flex-direction: column;
   align-items: center;
   padding-top: 30px;
-  background-color: rgba(36, 36, 36, 0.517);
-  -webkit-backdrop-filter: blur(12px);
-          backdrop-filter: blur(12px);
-  box-shadow: inset 0 0 10px #f0f0f0;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
   padding: 50px;

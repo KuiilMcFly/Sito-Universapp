@@ -1,20 +1,24 @@
 .hero-links-box:hover {
-    @include heroHover();
+    @include yHover();
 }
 
 .benefits-box:hover {
-    @include benefitsHover();
+    @include yHover();
 }
 
 .reviews-box:hover {
-    @include reviewsHover();
+    @include yHover();
 }
 
 .topic:hover {
     @include yHover();
 }
 
-.pay-price-box:hover {
+#greendrop:hover {
+    @include yHover();
+}
+
+#pinkdrop:hover{
     @include yHover();
 }
 
